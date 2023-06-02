@@ -1,5 +1,6 @@
 import React from 'react';
 import './1main.css';
+import { Link } from 'react-router-dom'
 
 export const Links = () => {
   return (
@@ -21,12 +22,33 @@ export const Links = () => {
       <div class="v2_22"></div>
       <div class="v2_23"></div>
       <div class="v2_24"></div>
-      <div class="v2_17"></div>
-      <span class="v2_153">Регистрация</span>
-      <div class="v2_6"></div>
-      <span class="v2_151">Главная</span>
-      <div class="v2_14"></div>
-      <span class="v2_152">Авторизация</span>
+
+      <Link to="/sigin" className="button-singin">
+        <div className="button-container">
+          <div className="button-inner">
+            <div class="v2_17"></div>
+            <span class="v2_153">Регистрация</span>
+          </div>
+        </div>
+      </Link>
+
+      <Link to="/glavst" className="button-glavst">
+        <div className="button-container">
+          <div className="button-inner">
+            <div class="v2_6"></div>
+            <span class="v2_151">Главная</span> 
+          </div>
+        </div>
+      </Link>
+
+      <Link to="/login" className="button-login">
+        <div className="button-container">
+          <div className="button-inner">
+            <div class="v2_14"></div>
+            <span class="v2_152">Авторизация</span>
+          </div>
+        </div>
+      </Link>
     </div>
   );
 }

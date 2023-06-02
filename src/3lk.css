@@ -14,7 +14,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v2_28 {
+.uploaded-im {
   width: 120px;
   height: 120px;
   background: rgba(217,217,217,1);
@@ -23,6 +23,7 @@ body {
   top: 124px;
   left: 23px;
   border-radius: 32px;
+  object-fit: cover;
 }
 .v2_124 {
   width: 190px;
@@ -136,7 +137,7 @@ body {
   color: rgba(255,255,255,1);
   position: absolute;
   top: 201px;
-  left: 229px;
+  left: 198px;
   font-family: Inter;
   font-weight: Regular;
   font-size: 12px;
@@ -149,9 +150,50 @@ body {
   opacity: 1;
   position: absolute;
   top: 194px;
-  left: 225px;
+  left: 193px;
   border: 3px solid rgba(75,42,134,1);
   border-radius: 32px;
+}
+.izm {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  position: absolute;
+  background-color: transparent;
+  top: 194px;
+  left: 255px;
+  border: 3px solid rgba(75,42,134,1);
+  border-radius: 32px;
+}
+.str1 {
+  width: 17px;
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 5px;
+  border: 2px solid rgba(75,42,134,1);
+  border-radius: 32px;
+  transform: rotate(-135deg);
+}
+.str2 {
+  width: 29px;
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 8px;
+  border: 2px solid rgba(75,42,134,1);
+  border-radius: 32px;
+  transform: rotate(-180deg);
+}
+.str3 {
+  width: 17px;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 5px;
+  border: 2px solid rgba(75,42,134,1);
+  border-radius: 32px;
+  transform: rotate(135deg);
 }
 .v29_22 {
   width: 109px;
@@ -168,8 +210,8 @@ body {
   width: 65px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 599px;
-  left: 146px;
+  top: 598px;
+  left: 145px;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;

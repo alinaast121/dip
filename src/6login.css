@@ -14,57 +14,50 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v3_179 {
-  width: 231px;
-  height: 46px;
-  opacity: 1;
-  position: absolute;
-  top: 216px;
-  left: 64px;
-  border: 3px solid rgba(174,192,46,1);
-  border-radius: 32px;
+.auth-container {
+  width: 100%;
+  border-radius: px;
 }
-.v3_180 {
-  width: 231px;
-  height: 46px;
-  opacity: 1;
-  position: absolute;
-  top: 290px;
-  left: 64px;
-  border: 3px solid rgba(170,41,90,1);
+.auth-input {
+  width: 180px;
+  border: 3px solid #AA295A;
   border-radius: 32px;
-}
-.v37_32 {
-  width: 119px;
-  color: rgba(255,255,255,1);
+  background: transparent;
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 229px;
-  left: 119px;
+  top: 206px;
+  left: 93px;
+  padding-left: 10px;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 23px;
+  font-size: 14px;
+  line-height: 35px;
   opacity: 1;
   text-align: left;
 }
-.v37_33 {
-  width: 130px;
-  color: rgba(255,255,255,1);
+.auth-input2 {
+  width: 180px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 303px;
-  left: 115px;
+  border: 3px solid #4B2A86;
+  border-radius: 32px;
+  top: 291px;
+  left: 93px;
+  padding-left: 10px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 23px;
+  font-size: 14px;
+  line-height: 35px;
   opacity: 1;
   text-align: left;
 }
-.v2_114 {
+.auth-button {
   width: 50px;
   height: 50px;
+  border: 3px solid rgba(115,178,43,1);
   background: rgba(115,178,43,1);
   opacity: 1;
   position: absolute;
@@ -73,32 +66,32 @@ body {
   border-radius: 32px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-.v4_27 {
+.streka1 {
   width: 31px;
   opacity: 1;
   position: absolute;
-  top: 395px;
-  left: 163px;
+  top: 22px;
+  left: 7px;
   border: 2px solid rgba(255,255,255,1);
   transform: rotate(0deg);
   border-radius: 32px;
 }
-.v4_28 {
+.streka2 {
   width: 19px;
   opacity: 1;
   position: absolute;
-  top: 400.5px;
-  left: 180px;
+  top: 16px;
+  left: 5px;
   border: 2px solid rgba(255,255,255,1);
   transform: rotate(135deg);
   border-radius: 32px;
 }
-.v4_29 {
+.streka3 {
   width: 19px;
   opacity: 1;
   position: absolute;
-  top: 389.5px;
-  left: 180px;
+  top: 28px;
+  left: 5px;
   border: 2px solid rgba(255,255,255,1);
   transform: rotate(-135deg);
   border-radius: 32px;
