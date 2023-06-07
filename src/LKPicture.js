@@ -10,6 +10,7 @@ export const LKPicture = () => {
   const [isSearchVisible, setIsSearchVisible] = useState(false);
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
+  const [rating, setRating] = useState(0);
   
   /*const startAR = () => {
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -60,7 +61,9 @@ export const LKPicture = () => {
     setIsSearchVisible(false);
   };
 
-  
+  const handleRatingChange = (value) => {
+    setRating(value);
+  };
 
   const handleCommentChange = (event) => {
     setNewComment(event.target.value);
@@ -83,12 +86,44 @@ export const LKPicture = () => {
             <span className="v2_88">ср. оценка</span>
             <div className="v2_85"></div>
             <span className="v2_94">тег</span>
-            <div className="v37_2"></div>
-            <div className="v37_8"></div>
-            <span className="v37_9">комментарии</span>
             <div className="v37_10"></div>
-            <div className="v37_4"></div>
             <div className="v37_6"></div>
+
+            <div className="rating-scale">
+              <span className="rating-label">Оценка:</span>
+              <div className="rating-buttons">
+                <button
+                className={`rating-button ${rating === 1 ? 'active' : ''}`}
+                onClick={() => handleRatingChange(1)}
+                >
+                1
+                </button>
+                <button
+                className={`rating-button ${rating === 2 ? 'active' : ''}`}
+                onClick={() => handleRatingChange(2)}
+                >
+                2
+                </button>
+                <button
+                className={`rating-button ${rating === 3 ? 'active' : ''}`}
+                onClick={() => handleRatingChange(3)}
+                >
+                3
+                </button>
+                <button
+                className={`rating-button ${rating === 4 ? 'active' : ''}`}
+                onClick={() => handleRatingChange(4)}
+                >
+                4
+                </button>
+                <button
+                className={`rating-button ${rating === 5 ? 'active' : ''}`}
+                onClick={() => handleRatingChange(5)}
+                >
+                5
+                </button>
+                </div>
+              </div>
 
             <form className='write' onSubmit={handleCommentSubmit}>
               <textarea
@@ -144,8 +179,6 @@ export const LKPicture = () => {
                 <span className="v37_25">VR</span>
               </button>
             </div> */}
-            
-            <div className="v37_26"></div>
             
             <Link to="/" className="button-mainp">
               <div className="button-container">
