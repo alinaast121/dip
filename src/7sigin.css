@@ -14,81 +14,68 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v2_103 {
-  width: 232px;
-  height: 46px;
-  opacity: 1;
-  position: absolute;
-  top: 179px;
-  left: 64px;
-  border: 3px solid rgba(174,192,46,1);
-  border-radius: 32px;
+.registration-container {
+  width: 100%;
+  border-radius: px;
 }
-.v2_107 {
-  width: 232px;
-  height: 46px;
-  opacity: 1;
-  position: absolute;
-  top: 253px;
-  left: 64px;
-  border: 3px solid rgba(170,41,90,1);
+.registration-input {
+  width: 180px;
+  border: 2px solid #AEC02E;
   border-radius: 32px;
-}
-.v2_109 {
-  width: 232px;
-  height: 46px;
-  opacity: 1;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 327px;
-  left: 64px;
-  border: 3px solid rgba(75,42,134,1);
-  border-radius: 32px;
-}
-.v37_29 {
-  width: 119px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 193px;
-  left: 121px;
+  top: 180px;
+  left: 93px;
+  padding-left: 10px;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 23px;
+  font-size: 14px;
+  line-height: 35px;
   opacity: 1;
   text-align: left;
 }
-.v37_30 {
-  width: 130px;
-  color: rgba(255,255,255,1);
+.registration-input2 {
+  width: 180px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 269px;
-  left: 116px;
+  border: 2px solid #AA295A;
+  border-radius: 32px;
+  top: 256px;
+  left: 93px;
+  padding-left: 10px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 23px;
+  font-size: 14px;
+  line-height: 35px;
   opacity: 1;
   text-align: left;
 }
-.v37_31 {
-  width: 148px;
-  color: rgba(255,255,255,1);
+.registration-input3 {
+  width: 180px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 344px;
-  left: 106px;
+  border: 2px solid #4B2A86;
+  border-radius: 32px;
+  top: 330px;
+  left: 93px;
+  padding-left: 10px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 23px;
+  font-size: 14px;
+  line-height: 35px;
   opacity: 1;
   text-align: left;
 }
-.v2_101 {
+.registration-button {
   width: 50px;
   height: 50px;
+  border: 3px solid rgba(115,178,43,1);
   background: rgba(115,178,43,1);
   opacity: 1;
   position: absolute;
@@ -97,32 +84,32 @@ body {
   border-radius: 32px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-.v4_28 {
+.str1 {
   width: 31px;
   opacity: 1;
   position: absolute;
-  top: 435px;
-  left: 163px;
+  top: 22px;
+  left: 7px;
   border: 2px solid rgba(255,255,255,1);
   transform: rotate(0deg);
   border-radius: 32px;
 }
-.v4_29 {
+.str2 {
   width: 19px;
   opacity: 1;
   position: absolute;
-  top: 440.5px;
-  left: 180px;
+  top: 16px;
+  left: 5px;
   border: 2px solid rgba(255,255,255,1);
   transform: rotate(135deg);
   border-radius: 32px;
 }
-.v4_30 {
+.str3 {
   width: 19px;
   opacity: 1;
   position: absolute;
-  top: 429.5px;
-  left: 180px;
+  top: 28px;
+  left: 5px;
   border: 2px solid rgba(255,255,255,1);
   transform: rotate(-135deg);
   border-radius: 32px;

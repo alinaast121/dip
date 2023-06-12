@@ -18,34 +18,47 @@ body {
   width: 330px;
   height: 177px;
   opacity: 1;
+  background-color: transparent;
   position: absolute;
   top: 103px;
   left: 15px;
   border: 3px solid rgba(75,42,134,1);
   border-radius: 32px;
 }
+.uploaded-image {
+  width: 330px;
+  height: 177px;
+  opacity: 1;
+  background-color: transparent;
+  position: absolute;
+  top: 103px;
+  left: 15px;
+  border: 3px solid rgba(75,42,134,1);
+  border-radius: 32px;
+  object-fit: cover;
+}
 .name {
   position: absolute;
-width: 34px;
-height: 0px;
-left: 163px;
-top: 192px;
-border: 3px solid #4B2A86;
-transform: rotate(90deg);
-border-radius: 32px;
+  width: 34px;
+  height: 0px;
+  left: 150px;
+  top: 85px;
+  border: 3px solid #4B2A86;
+  transform: rotate(90deg);
+  border-radius: 32px;
 }
 .v29_37 {
   width: 34px;
   opacity: 1;
   position: absolute;
-  top: 192px;
-  left: 163px;
+  top: 85px;
+  left: 150px;
   border: 3px solid rgba(75,42,134,1);
   border-radius: 32px;
 }
-.v2_129 {
+.input-box {
   width: 330px;
-  height: 113px;
+  height: 110px;
   opacity: 1;
   position: absolute;
   top: 303px;
@@ -53,7 +66,29 @@ border-radius: 32px;
   border: 3px solid rgba(174,192,46,1);
   border-radius: 32px;
 }
-.v2_132 {
+.input {
+  width: 300px;
+  height: 85px;
+  background-color: transparent;
+  border: none;
+  margin-left: 13px;
+  margin-top: 10px;
+  left: 15px;
+  font-family: 'Helvetica';
+  color: rgba(255,255,255,1);
+}
+.input-2{
+  width: 300px;
+  height: 33px;
+  background-color: transparent;
+  border: none;
+  margin-left: 13px;
+  margin-top: 5px;
+  left: 15px;
+  font-family: 'Helvetica';
+  color: rgba(255,255,255,1);
+}
+.input-box-2 {
   width: 330px;
   height: 38px;
   opacity: 1;
@@ -76,20 +111,6 @@ border-radius: 32px;
   line-height: 21px;
   opacity: 1;
   text-align: left;
-}
-.v2_141 {
-  width: 94px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 450px;
-  left: 133px;
-  font-family: 'Helvetica';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 21px;
-  opacity: 1;
-  text-align: center;
 }
 .v2_140 {
   width: 50px;
